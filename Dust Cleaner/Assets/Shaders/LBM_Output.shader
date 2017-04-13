@@ -7,16 +7,12 @@
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }
-		LOD 100
-
 		Pass
 		{
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			// make fog work
-			#pragma multi_compile_fog
-			
+
 			#include "UnityCG.cginc"
 
 			struct appdata
@@ -28,19 +24,20 @@
 			struct v2f
 			{
 				float2 uv : TEXCOORD0;
-				UNITY_FOG_COORDS(1)
 				float4 vertex : SV_POSITION;
+				float4 wPos : TEXCOORD1;
 			};
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
-			uniform float _TexSize; 
-			v2f vert (appdata v)
+			uniform float2 _TexSize; 
+
+			v2f vert (appdata_base v)
 			{
 				v2f o;
-				o.vertex = UnityObjectToClipPos(v.vertex);
-				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-				UNITY_TRANSFER_FOG(o,o.vertex);
+				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.uv = v.texcoord;
+				o.wPos = mul(unity_WorldToObject, v.vertex);
 				return o;
 			}
 			
@@ -55,6 +52,7 @@
 				float v4 = 4.0 / 7.0;
 				float v5 = 5.0 / 7.0;
 				float v6 = 6.0 / 7.0;
+
 				//compute color
 				if (normal_value<v1)
 				{
@@ -111,16 +109,20 @@
 			fixed4 frag (v2f i) : SV_Target
 			{
 				//only one pixel out of 4 stores the moments
-				int ix = int(floor(i.uv.x * _TexSize));
-				int iy = int(floor(i.uv.y * _TexSize));
-				float3 m = tex2D(_MainTex, (float2(2 * ix + 1, 2 * iy + 1) + 0.5)).xyz;
+					float2 fragCoord = i.uv.xy * _TexSize.xy;
+					//fragCoord.x *= _TexSize.x/ _TexSize.y ;
+
+				int ix = int(floor(fragCoord.x / 2.0));
+				int iy = int(floor(fragCoord.y / 2.0));
+
+				float3 m = tex2D(_MainTex, (float2(2 * ix + 1, 2 * iy + 1) + 0.5) / _TexSize.xy).xyz;
 				float solid = m.x;
 				float vx = m.y;
 				float vy = m.z;
 				float U = sqrt(vx*vx + vy*vy);
 				float4 fragColor = computeColor(U / 0.2);
 				if (solid > 0.5)
-					fragColor = float4(0.0, 0.0, 0.0, 0.0);
+					fragColor = float4(0.0, 0.0, 0.0, 1.0);
 
 				return fragColor;
 			}

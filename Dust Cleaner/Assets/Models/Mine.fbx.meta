@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 7843790764bf96042b8d8338232bb9bd
+timeCreated: 1492005990
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BoreHole
+    100002: CoalWall
+    100004: Gof_Wall
+    100006: LongWallRoof
+    100008: //RootNode
+    100010: mine_Backup
+    100012: Mine_Ground
+    100014: Mine_Inner
+    100016: Mine_Pillars
+    100018: Mine_Roof_Upper
+    100020: Mine_Surface
+    100022: Sheerer
+    100024: Sheerer_Drum
+    100026: Sheerer_Drum2
+    100028: Stone_Duster.001
+    100030: Stone_Duster.001_MeshPart0
+    100032: Stone_Duster.001_MeshPart1
+    100034: Stone_Duster.001_MeshPart10
+    100036: Stone_Duster.001_MeshPart11
+    100038: Stone_Duster.001_MeshPart2
+    100040: Stone_Duster.001_MeshPart3
+    100042: Stone_Duster.001_MeshPart4
+    100044: Stone_Duster.001_MeshPart5
+    100046: Stone_Duster.001_MeshPart6
+    100048: Stone_Duster.001_MeshPart7
+    100050: Stone_Duster.001_MeshPart8
+    100052: Stone_Duster.001_MeshPart9
+    100054: Sheerer.001
+    400000: BoreHole
+    400002: CoalWall
+    400004: Gof_Wall
+    400006: LongWallRoof
+    400008: //RootNode
+    400010: mine_Backup
+    400012: Mine_Ground
+    400014: Mine_Inner
+    400016: Mine_Pillars
+    400018: Mine_Roof_Upper
+    400020: Mine_Surface
+    400022: Sheerer
+    400024: Sheerer_Drum
+    400026: Sheerer_Drum2
+    400028: Stone_Duster.001
+    400030: Stone_Duster.001_MeshPart0
+    400032: Stone_Duster.001_MeshPart1
+    400034: Stone_Duster.001_MeshPart10
+    400036: Stone_Duster.001_MeshPart11
+    400038: Stone_Duster.001_MeshPart2
+    400040: Stone_Duster.001_MeshPart3
+    400042: Stone_Duster.001_MeshPart4
+    400044: Stone_Duster.001_MeshPart5
+    400046: Stone_Duster.001_MeshPart6
+    400048: Stone_Duster.001_MeshPart7
+    400050: Stone_Duster.001_MeshPart8
+    400052: Stone_Duster.001_MeshPart9
+    400054: Sheerer.001
+    2300000: BoreHole
+    2300002: CoalWall
+    2300004: Gof_Wall
+    2300006: LongWallRoof
+    2300008: mine_Backup
+    2300010: Mine_Ground
+    2300012: Mine_Inner
+    2300014: Mine_Pillars
+    2300016: Mine_Roof_Upper
+    2300018: Mine_Surface
+    2300020: Sheerer
+    2300022: Sheerer_Drum
+    2300024: Sheerer_Drum2
+    2300026: Stone_Duster.001_MeshPart0
+    2300028: Stone_Duster.001_MeshPart1
+    2300030: Stone_Duster.001_MeshPart10
+    2300032: Stone_Duster.001_MeshPart11
+    2300034: Stone_Duster.001_MeshPart2
+    2300036: Stone_Duster.001_MeshPart3
+    2300038: Stone_Duster.001_MeshPart4
+    2300040: Stone_Duster.001_MeshPart5
+    2300042: Stone_Duster.001_MeshPart6
+    2300044: Stone_Duster.001_MeshPart7
+    2300046: Stone_Duster.001_MeshPart8
+    2300048: Stone_Duster.001_MeshPart9
+    2300050: Sheerer.001
+    3300000: BoreHole
+    3300002: CoalWall
+    3300004: Gof_Wall
+    3300006: LongWallRoof
+    3300008: mine_Backup
+    3300010: Mine_Ground
+    3300012: Mine_Inner
+    3300014: Mine_Pillars
+    3300016: Mine_Roof_Upper
+    3300018: Mine_Surface
+    3300020: Sheerer
+    3300022: Sheerer_Drum
+    3300024: Sheerer_Drum2
+    3300026: Stone_Duster.001_MeshPart0
+    3300028: Stone_Duster.001_MeshPart1
+    3300030: Stone_Duster.001_MeshPart10
+    3300032: Stone_Duster.001_MeshPart11
+    3300034: Stone_Duster.001_MeshPart2
+    3300036: Stone_Duster.001_MeshPart3
+    3300038: Stone_Duster.001_MeshPart4
+    3300040: Stone_Duster.001_MeshPart5
+    3300042: Stone_Duster.001_MeshPart6
+    3300044: Stone_Duster.001_MeshPart7
+    3300046: Stone_Duster.001_MeshPart8
+    3300048: Stone_Duster.001_MeshPart9
+    3300050: Sheerer.001
+    4300000: Mine_Ground
+    4300002: Gof_Wall
+    4300004: BoreHole
+    4300006: Mine_Pillars
+    4300008: CoalWall
+    4300010: LongWallRoof
+    4300012: Sheerer_Drum2
+    4300014: Sheerer_Drum
+    4300016: Mine_Surface
+    4300018: Stone_Duster.001_MeshPart0
+    4300020: Stone_Duster.001_MeshPart1
+    4300022: Stone_Duster.001_MeshPart2
+    4300024: Stone_Duster.001_MeshPart3
+    4300026: Stone_Duster.001_MeshPart4
+    4300028: Stone_Duster.001_MeshPart5
+    4300030: Stone_Duster.001_MeshPart6
+    4300032: Stone_Duster.001_MeshPart7
+    4300034: Stone_Duster.001_MeshPart8
+    4300036: Stone_Duster.001_MeshPart9
+    4300038: Stone_Duster.001_MeshPart10
+    4300040: Stone_Duster.001_MeshPart11
+    4300042: Sheerer
+    4300044: Mine_Roof_Upper
+    4300046: Mine_Inner
+    4300048: mine_Backup
+    4300050: Sheerer.001
+    7400000: Stone_Duster.001|aaaaa:black_m0|Take 001|BaseLayer
+    7400002: Stone_Duster.001|aaaaa:black_m1|Take 001|BaseLayer
+    7400004: Stone_Duster.001|aaaaa:black_m2|Take 001|BaseLayer
+    7400006: Stone_Duster.001|aaaaa:black_m3|Take 001|BaseLayer
+    7400008: Stone_Duster.001|aaaaa:black_m4|Take 001|BaseLayer
+    7400010: Stone_Duster.001|aaaaa:body0|Take 001|BaseLayer
+    7400012: Stone_Duster.001|aaaaa:body|Take 001|BaseLayer
+    7400014: Stone_Duster.001|aaaaa:chrome02|Take 001|BaseLayer
+    7400016: Stone_Duster.001|aaaaa:chrome03|Take 001|BaseLayer
+    7400018: Stone_Duster.001|aaaaa:chrome100|Take 001|BaseLayer
+    7400020: Stone_Duster.001|aaaaa:chrome101|Take 001|BaseLayer
+    7400022: Stone_Duster.001|aaaaa:chrome102|Take 001|BaseLayer
+    7400024: Stone_Duster.001|aaaaa:chrome103|Take 001|BaseLayer
+    7400026: Stone_Duster.001|aaaaa:chrome104|Take 001|BaseLayer
+    7400028: Stone_Duster.001|aaaaa:chrome105|Take 001|BaseLayer
+    7400030: Stone_Duster.001|aaaaa:chrome10|Take 001|BaseLayer
+    7400032: Stone_Duster.001|aaaaa:chrome11|Take 001|BaseLayer
+    7400034: Stone_Duster.001|aaaaa:chrome12|Take 001|BaseLayer
+    7400036: Stone_Duster.001|aaaaa:chrome13|Take 001|BaseLayer
+    7400038: Stone_Duster.001|aaaaa:chrome14|Take 001|BaseLayer
+    7400040: Stone_Duster.001|aaaaa:chrome15|Take 001|BaseLayer
+    7400042: Stone_Duster.001|aaaaa:chrome16|Take 001|BaseLayer
+    7400044: Stone_Duster.001|aaaaa:chrome17|Take 001|BaseLayer
+    7400046: Stone_Duster.001|aaaaa:chrome18|Take 001|BaseLayer
+    7400048: Stone_Duster.001|aaaaa:chrome19|Take 001|BaseLayer
+    7400050: Stone_Duster.001|aaaaa:chrome20|Take 001|BaseLayer
+    7400052: Stone_Duster.001|aaaaa:chrome21|Take 001|BaseLayer
+    7400054: Stone_Duster.001|aaaaa:chrome22|Take 001|BaseLayer
+    7400056: Stone_Duster.001|aaaaa:chrome23|Take 001|BaseLayer
+    7400058: Stone_Duster.001|aaaaa:chrome24|Take 001|BaseLayer
+    7400060: Stone_Duster.001|aaaaa:chrome25|Take 001|BaseLayer
+    7400062: Stone_Duster.001|aaaaa:chrome26|Take 001|BaseLayer
+    7400064: Stone_Duster.001|aaaaa:chrome27|Take 001|BaseLayer
+    7400066: Stone_Duster.001|aaaaa:chrome28|Take 001|BaseLayer
+    7400068: Stone_Duster.001|aaaaa:chrome29|Take 001|BaseLayer
+    7400070: Stone_Duster.001|aaaaa:chrome30|Take 001|BaseLayer
+    7400072: Stone_Duster.001|aaaaa:chrome31|Take 001|BaseLayer
+    7400074: Stone_Duster.001|aaaaa:chrome32|Take 001|BaseLayer
+    7400076: Stone_Duster.001|aaaaa:chrome33|Take 001|BaseLayer
+    7400078: Stone_Duster.001|aaaaa:chrome34|Take 001|BaseLayer
+    7400080: Stone_Duster.001|aaaaa:chrome35|Take 001|BaseLayer
+    7400082: Stone_Duster.001|aaaaa:chrome36|Take 001|BaseLayer
+    7400084: Stone_Duster.001|aaaaa:chrome38|Take 001|BaseLayer
+    7400086: Stone_Duster.001|aaaaa:chrome39|Take 001|BaseLayer
+    7400088: Stone_Duster.001|aaaaa:chrome40|Take 001|BaseLayer
+    7400090: Stone_Duster.001|aaaaa:chrome41|Take 001|BaseLayer
+    7400092: Stone_Duster.001|aaaaa:chrome42|Take 001|BaseLayer
+    7400094: Stone_Duster.001|aaaaa:chrome43|Take 001|BaseLayer
+    7400096: Stone_Duster.001|aaaaa:chrome44|Take 001|BaseLayer
+    7400098: Stone_Duster.001|aaaaa:chrome45|Take 001|BaseLayer
+    7400100: Stone_Duster.001|aaaaa:chrome46|Take 001|BaseLayer
+    7400102: Stone_Duster.001|aaaaa:chrome47|Take 001|BaseLayer
+    7400104: Stone_Duster.001|aaaaa:chrome48|Take 001|BaseLayer
+    7400106: Stone_Duster.001|aaaaa:chrome49|Take 001|BaseLayer
+    7400108: Stone_Duster.001|aaaaa:chrome50|Take 001|BaseLayer
+    7400110: Stone_Duster.001|aaaaa:chrome51|Take 001|BaseLayer
+    7400112: Stone_Duster.001|aaaaa:chrome52|Take 001|BaseLayer
+    7400114: Stone_Duster.001|aaaaa:chrome53|Take 001|BaseLayer
+    7400116: Stone_Duster.001|aaaaa:chrome54|Take 001|BaseLayer
+    7400118: Stone_Duster.001|aaaaa:chrome55|Take 001|BaseLayer
+    7400120: Stone_Duster.001|aaaaa:chrome56|Take 001|BaseLayer
+    7400122: Stone_Duster.001|aaaaa:chrome57|Take 001|BaseLayer
+    7400124: Stone_Duster.001|aaaaa:chrome58|Take 001|BaseLayer
+    7400126: Stone_Duster.001|aaaaa:chrome59|Take 001|BaseLayer
+    7400128: Stone_Duster.001|aaaaa:chrome60|Take 001|BaseLayer
+    7400130: Stone_Duster.001|aaaaa:chrome61|Take 001|BaseLayer
+    7400132: Stone_Duster.001|aaaaa:chrome62|Take 001|BaseLayer
+    7400134: Stone_Duster.001|aaaaa:chrome63|Take 001|BaseLayer
+    7400136: Stone_Duster.001|aaaaa:chrome64|Take 001|BaseLayer
+    7400138: Stone_Duster.001|aaaaa:chrome65|Take 001|BaseLayer
+    7400140: Stone_Duster.001|aaaaa:chrome66|Take 001|BaseLayer
+    7400142: Stone_Duster.001|aaaaa:chrome67|Take 001|BaseLayer
+    7400144: Stone_Duster.001|aaaaa:chrome68|Take 001|BaseLayer
+    7400146: Stone_Duster.001|aaaaa:chrome69|Take 001|BaseLayer
+    7400148: Stone_Duster.001|aaaaa:chrome6|Take 001|BaseLayer
+    7400150: Stone_Duster.001|aaaaa:chrome70|Take 001|BaseLayer
+    7400152: Stone_Duster.001|aaaaa:chrome71|Take 001|BaseLayer
+    7400154: Stone_Duster.001|aaaaa:chrome72|Take 001|BaseLayer
+    7400156: Stone_Duster.001|aaaaa:chrome73|Take 001|BaseLayer
+    7400158: Stone_Duster.001|aaaaa:chrome74|Take 001|BaseLayer
+    7400160: Stone_Duster.001|aaaaa:chrome75|Take 001|BaseLayer
+    7400162: Stone_Duster.001|aaaaa:chrome76|Take 001|BaseLayer
+    7400164: Stone_Duster.001|aaaaa:chrome77|Take 001|BaseLayer
+    7400166: Stone_Duster.001|aaaaa:chrome78|Take 001|BaseLayer
+    7400168: Stone_Duster.001|aaaaa:chrome79|Take 001|BaseLayer
+    7400170: Stone_Duster.001|aaaaa:chrome7|Take 001|BaseLayer
+    7400172: Stone_Duster.001|aaaaa:chrome80|Take 001|BaseLayer
+    7400174: Stone_Duster.001|aaaaa:chrome81|Take 001|BaseLayer
+    7400176: Stone_Duster.001|aaaaa:chrome82|Take 001|BaseLayer
+    7400178: Stone_Duster.001|aaaaa:chrome83|Take 001|BaseLayer
+    7400180: Stone_Duster.001|aaaaa:chrome84|Take 001|BaseLayer
+    7400182: Stone_Duster.001|aaaaa:chrome85|Take 001|BaseLayer
+    7400184: Stone_Duster.001|aaaaa:chrome86|Take 001|BaseLayer
+    7400186: Stone_Duster.001|aaaaa:chrome87|Take 001|BaseLayer
+    7400188: Stone_Duster.001|aaaaa:chrome88|Take 001|BaseLayer
+    7400190: Stone_Duster.001|aaaaa:chrome89|Take 001|BaseLayer
+    7400192: Stone_Duster.001|aaaaa:chrome90|Take 001|BaseLayer
+    7400194: Stone_Duster.001|aaaaa:chrome91|Take 001|BaseLayer
+    7400196: Stone_Duster.001|aaaaa:chrome92|Take 001|BaseLayer
+    7400198: Stone_Duster.001|aaaaa:chrome93|Take 001|BaseLayer
+    7400200: Stone_Duster.001|aaaaa:chrome94|Take 001|BaseLayer
+    7400202: Stone_Duster.001|aaaaa:chrome95|Take 001|BaseLayer
+    7400204: Stone_Duster.001|aaaaa:chrome96|Take 001|BaseLayer
+    7400206: Stone_Duster.001|aaaaa:chrome97|Take 001|BaseLayer
+    7400208: Stone_Duster.001|aaaaa:chrome98|Take 001|BaseLayer
+    7400210: Stone_Duster.001|aaaaa:chrome99|Take 001|BaseLayer
+    7400212: Stone_Duster.001|aaaaa:glass0|Take 001|BaseLayer
+    7400214: Stone_Duster.001|aaaaa:glass1|Take 001|BaseLayer
+    7400216: Stone_Duster.001|aaaaa:glass2|Take 001|BaseLayer
+    7400218: Stone_Duster.001|aaaaa:glass3|Take 001|BaseLayer
+    7400220: Stone_Duster.001|aaaaa:glass4|Take 001|BaseLayer
+    7400222: Stone_Duster.001|aaaaa:glass|Take 001|BaseLayer
+    7400224: Stone_Duster.001|aaaaa:gold0|Take 001|BaseLayer
+    7400226: Stone_Duster.001|aaaaa:gold1|Take 001|BaseLayer
+    7400228: Stone_Duster.001|aaaaa:gold2|Take 001|BaseLayer
+    7400230: Stone_Duster.001|aaaaa:gold|Take 001|BaseLayer
+    7400232: Stone_Duster.001|aaaaa:grey|Take 001|BaseLayer
+    7400234: Stone_Duster.001|aaaaa:gum0|Take 001|BaseLayer
+    7400236: Stone_Duster.001|aaaaa:gum10|Take 001|BaseLayer
+    7400238: Stone_Duster.001|aaaaa:gum11|Take 001|BaseLayer
+    7400240: Stone_Duster.001|aaaaa:gum12|Take 001|BaseLayer
+    7400242: Stone_Duster.001|aaaaa:gum13|Take 001|BaseLayer
+    7400244: Stone_Duster.001|aaaaa:gum15|Take 001|BaseLayer
+    7400246: Stone_Duster.001|aaaaa:gum16|Take 001|BaseLayer
+    7400248: Stone_Duster.001|aaaaa:gum18|Take 001|BaseLayer
+    7400250: Stone_Duster.001|aaaaa:gum19|Take 001|BaseLayer
+    7400252: Stone_Duster.001|aaaaa:gum1|Take 001|BaseLayer
+    7400254: Stone_Duster.001|aaaaa:gum20|Take 001|BaseLayer
+    7400256: Stone_Duster.001|aaaaa:gum21|Take 001|BaseLayer
+    7400258: Stone_Duster.001|aaaaa:gum22|Take 001|BaseLayer
+    7400260: Stone_Duster.001|aaaaa:gum23|Take 001|BaseLayer
+    7400262: Stone_Duster.001|aaaaa:gum24|Take 001|BaseLayer
+    7400264: Stone_Duster.001|aaaaa:gum25|Take 001|BaseLayer
+    7400266: Stone_Duster.001|aaaaa:gum26|Take 001|BaseLayer
+    7400268: Stone_Duster.001|aaaaa:gum27|Take 001|BaseLayer
+    7400270: Stone_Duster.001|aaaaa:gum28|Take 001|BaseLayer
+    7400272: Stone_Duster.001|aaaaa:gum29|Take 001|BaseLayer
+    7400274: Stone_Duster.001|aaaaa:gum30|Take 001|BaseLayer
+    7400276: Stone_Duster.001|aaaaa:gum31|Take 001|BaseLayer
+    7400278: Stone_Duster.001|aaaaa:gum32|Take 001|BaseLayer
+    7400280: Stone_Duster.001|aaaaa:gum33|Take 001|BaseLayer
+    7400282: Stone_Duster.001|aaaaa:gum34|Take 001|BaseLayer
+    7400284: Stone_Duster.001|aaaaa:gum35|Take 001|BaseLayer
+    7400286: Stone_Duster.001|aaaaa:gum36|Take 001|BaseLayer
+    7400288: Stone_Duster.001|aaaaa:gum37|Take 001|BaseLayer
+    7400290: Stone_Duster.001|aaaaa:gum38|Take 001|BaseLayer
+    7400292: Stone_Duster.001|aaaaa:gum39|Take 001|BaseLayer
+    7400294: Stone_Duster.001|aaaaa:gum40|Take 001|BaseLayer
+    7400296: Stone_Duster.001|aaaaa:gum41|Take 001|BaseLayer
+    7400298: Stone_Duster.001|aaaaa:gum42|Take 001|BaseLayer
+    7400300: Stone_Duster.001|aaaaa:gum43|Take 001|BaseLayer
+    7400302: Stone_Duster.001|aaaaa:gum44|Take 001|BaseLayer
+    7400304: Stone_Duster.001|aaaaa:gum45|Take 001|BaseLayer
+    7400306: Stone_Duster.001|aaaaa:gum46|Take 001|BaseLayer
+    7400308: Stone_Duster.001|aaaaa:gum47|Take 001|BaseLayer
+    7400310: Stone_Duster.001|aaaaa:gum48|Take 001|BaseLayer
+    7400312: Stone_Duster.001|aaaaa:gum49|Take 001|BaseLayer
+    7400314: Stone_Duster.001|aaaaa:gum4|Take 001|BaseLayer
+    7400316: Stone_Duster.001|aaaaa:gum50|Take 001|BaseLayer
+    7400318: Stone_Duster.001|aaaaa:gum51|Take 001|BaseLayer
+    7400320: Stone_Duster.001|aaaaa:gum52|Take 001|BaseLayer
+    7400322: Stone_Duster.001|aaaaa:gum54|Take 001|BaseLayer
+    7400324: Stone_Duster.001|aaaaa:gum55|Take 001|BaseLayer
+    7400326: Stone_Duster.001|aaaaa:gum56|Take 001|BaseLayer
+    7400328: Stone_Duster.001|aaaaa:gum57|Take 001|BaseLayer
+    7400330: Stone_Duster.001|aaaaa:gum58|Take 001|BaseLayer
+    7400332: Stone_Duster.001|aaaaa:gum59|Take 001|BaseLayer
+    7400334: Stone_Duster.001|aaaaa:gum60|Take 001|BaseLayer
+    7400336: Stone_Duster.001|aaaaa:gum61|Take 001|BaseLayer
+    7400338: Stone_Duster.001|aaaaa:gum62|Take 001|BaseLayer
+    7400340: Stone_Duster.001|aaaaa:gum63|Take 001|BaseLayer
+    7400342: Stone_Duster.001|aaaaa:gum64|Take 001|BaseLayer
+    7400344: Stone_Duster.001|aaaaa:gum65|Take 001|BaseLayer
+    7400346: Stone_Duster.001|aaaaa:gum66|Take 001|BaseLayer
+    7400348: Stone_Duster.001|aaaaa:gum67|Take 001|BaseLayer
+    7400350: Stone_Duster.001|aaaaa:gum68|Take 001|BaseLayer
+    7400352: Stone_Duster.001|aaaaa:gum69|Take 001|BaseLayer
+    7400354: Stone_Duster.001|aaaaa:gum70|Take 001|BaseLayer
+    7400356: Stone_Duster.001|aaaaa:gum71|Take 001|BaseLayer
+    7400358: Stone_Duster.001|aaaaa:gum72|Take 001|BaseLayer
+    7400360: Stone_Duster.001|aaaaa:gum73|Take 001|BaseLayer
+    7400362: Stone_Duster.001|aaaaa:gum74|Take 001|BaseLayer
+    7400364: Stone_Duster.001|aaaaa:gum75|Take 001|BaseLayer
+    7400366: Stone_Duster.001|aaaaa:gum76|Take 001|BaseLayer
+    7400368: Stone_Duster.001|aaaaa:gum7|Take 001|BaseLayer
+    7400370: Stone_Duster.001|aaaaa:gum8|Take 001|BaseLayer
+    7400372: Stone_Duster.001|aaaaa:gum9|Take 001|BaseLayer
+    7400374: Stone_Duster.001|aaaaa:gum|Take 001|BaseLayer
+    7400376: Stone_Duster.001|aaaaa:orange01|Take 001|BaseLayer
+    7400378: Stone_Duster.001|aaaaa:orange1|Take 001|BaseLayer
+    7400380: Stone_Duster.001|aaaaa:orange2|Take 001|BaseLayer
+    7400382: Stone_Duster.001|aaaaa:orange3|Take 001|BaseLayer
+    7400384: Stone_Duster.001|aaaaa:orange4|Take 001|BaseLayer
+    7400386: Stone_Duster.001|aaaaa:plate10|Take 001|BaseLayer
+    7400388: Stone_Duster.001|aaaaa:plate20|Take 001|BaseLayer
+    7400390: Stone_Duster.001|aaaaa:plate3|Take 001|BaseLayer
+    7400392: Stone_Duster.001|aaaaa:red_l0|Take 001|BaseLayer
+    7400394: Stone_Duster.001|aaaaa:red_l1|Take 001|BaseLayer
+    7400396: Stone_Duster.001|aaaaa:red_l|Take 001|BaseLayer
+    7400398: Stone_Duster.001|aaaaa:red|Take 001|BaseLayer
+    7400400: Stone_Duster.001|aaaaa:silver0|Take 001|BaseLayer
+    7400402: Stone_Duster.001|aaaaa:silver10|Take 001|BaseLayer
+    7400404: Stone_Duster.001|aaaaa:silver11|Take 001|BaseLayer
+    7400406: Stone_Duster.001|aaaaa:silver12|Take 001|BaseLayer
+    7400408: Stone_Duster.001|aaaaa:silver13|Take 001|BaseLayer
+    7400410: Stone_Duster.001|aaaaa:silver14|Take 001|BaseLayer
+    7400412: Stone_Duster.001|aaaaa:silver15|Take 001|BaseLayer
+    7400414: Stone_Duster.001|aaaaa:silver16|Take 001|BaseLayer
+    7400416: Stone_Duster.001|aaaaa:silver17|Take 001|BaseLayer
+    7400418: Stone_Duster.001|aaaaa:silver18|Take 001|BaseLayer
+    7400420: Stone_Duster.001|aaaaa:silver19|Take 001|BaseLayer
+    7400422: Stone_Duster.001|aaaaa:silver1|Take 001|BaseLayer
+    7400424: Stone_Duster.001|aaaaa:silver20|Take 001|BaseLayer
+    7400426: Stone_Duster.001|aaaaa:silver21|Take 001|BaseLayer
+    7400428: Stone_Duster.001|aaaaa:silver22|Take 001|BaseLayer
+    7400430: Stone_Duster.001|aaaaa:silver23|Take 001|BaseLayer
+    7400432: Stone_Duster.001|aaaaa:silver24|Take 001|BaseLayer
+    7400434: Stone_Duster.001|aaaaa:silver25|Take 001|BaseLayer
+    7400436: Stone_Duster.001|aaaaa:silver2|Take 001|BaseLayer
+    7400438: Stone_Duster.001|aaaaa:silver3|Take 001|BaseLayer
+    7400440: Stone_Duster.001|aaaaa:silver7|Take 001|BaseLayer
+    7400442: Stone_Duster.001|aaaaa:silver8|Take 001|BaseLayer
+    7400444: Stone_Duster.001|group1|Take 001|BaseLayer
+    7400446: Stone_Duster.001|group2|Take 001|BaseLayer
+    7400448: Stone_Duster.001|group3|Take 001|BaseLayer
+    7400450: Stone_Duster.001|group|Take 001|BaseLayer
+    7400452: Stone_Duster.001|gum12|Take 001|BaseLayer
+    7400454: Stone_Duster.001|gum13|Take 001|BaseLayer
+    7400456: Stone_Duster.001|gum14|Take 001|BaseLayer
+    7400458: Stone_Duster.001|gum15|Take 001|BaseLayer
+    7400460: Stone_Duster.001|gum20|Take 001|BaseLayer
+    7400462: Stone_Duster.001|imagePlane1|Take 001|BaseLayer
+    7400464: Stone_Duster.001|imagePlane3|Take 001|BaseLayer
+    7400466: Stone_Duster.001|imagePlane4|Take 001|BaseLayer
+    7400468: Stone_Duster.001|pCube10|Take 001|BaseLayer
+    7400470: Stone_Duster.001|pCube11|Take 001|BaseLayer
+    7400472: Stone_Duster.001|pCube12|Take 001|BaseLayer
+    7400474: Stone_Duster.001|pCube13|Take 001|BaseLayer
+    7400476: Stone_Duster.001|pCube14|Take 001|BaseLayer
+    7400478: Stone_Duster.001|pCube15|Take 001|BaseLayer
+    7400480: Stone_Duster.001|pCube16|Take 001|BaseLayer
+    7400482: Stone_Duster.001|pCube1|Take 001|BaseLayer
+    7400484: Stone_Duster.001|pCube29|Take 001|BaseLayer
+    7400486: Stone_Duster.001|pCube2|Take 001|BaseLayer
+    7400488: Stone_Duster.001|pCube30|Take 001|BaseLayer
+    7400490: Stone_Duster.001|pCube31|Take 001|BaseLayer
+    7400492: Stone_Duster.001|pCube32|Take 001|BaseLayer
+    7400494: Stone_Duster.001|pCube33|Take 001|BaseLayer
+    7400496: Stone_Duster.001|pCube35|Take 001|BaseLayer
+    7400498: Stone_Duster.001|pCube36|Take 001|BaseLayer
+    7400500: Stone_Duster.001|pCube37|Take 001|BaseLayer
+    7400502: Stone_Duster.001|pCube38|Take 001|BaseLayer
+    7400504: Stone_Duster.001|pCube39|Take 001|BaseLayer
+    7400506: Stone_Duster.001|pCube3|Take 001|BaseLayer
+    7400508: Stone_Duster.001|pCube40|Take 001|BaseLayer
+    7400510: Stone_Duster.001|pCube41|Take 001|BaseLayer
+    7400512: Stone_Duster.001|pCube42|Take 001|BaseLayer
+    7400514: Stone_Duster.001|pCube43|Take 001|BaseLayer
+    7400516: Stone_Duster.001|pCube44|Take 001|BaseLayer
+    7400518: Stone_Duster.001|pCube49|Take 001|BaseLayer
+    7400520: Stone_Duster.001|pCube50|Take 001|BaseLayer
+    7400522: Stone_Duster.001|pCube51|Take 001|BaseLayer
+    7400524: Stone_Duster.001|pCube52|Take 001|BaseLayer
+    7400526: Stone_Duster.001|pCube53|Take 001|BaseLayer
+    7400528: Stone_Duster.001|pCube54|Take 001|BaseLayer
+    7400530: Stone_Duster.001|pCube55|Take 001|BaseLayer
+    7400532: Stone_Duster.001|pCube56|Take 001|BaseLayer
+    7400534: Stone_Duster.001|pCube5|Take 001|BaseLayer
+    7400536: Stone_Duster.001|pCube7|Take 001|BaseLayer
+    7400538: Stone_Duster.001|pCylinder1|Take 001|BaseLayer
+    7400540: Stone_Duster.001|pCylinder2|Take 001|BaseLayer
+    7400542: Stone_Duster.001|pCylinder3|Take 001|BaseLayer
+    7400544: Stone_Duster.001|pCylinder4|Take 001|BaseLayer
+    7400546: Stone_Duster.001|pCylinder5|Take 001|BaseLayer
+    7400548: Stone_Duster.001|polySurface10|Take 001|BaseLayer
+    7400550: Stone_Duster.001|polySurface11|Take 001|BaseLayer
+    7400552: Stone_Duster.001|polySurface12|Take 001|BaseLayer
+    7400554: Stone_Duster.001|polySurface13|Take 001|BaseLayer
+    7400556: Stone_Duster.001|polySurface14|Take 001|BaseLayer
+    7400558: Stone_Duster.001|polySurface22|Take 001|BaseLayer
+    7400560: Stone_Duster.001|polySurface23|Take 001|BaseLayer
+    7400562: Stone_Duster.001|polySurface24|Take 001|BaseLayer
+    7400564: Stone_Duster.001|polySurface26|Take 001|BaseLayer
+    7400566: Stone_Duster.001|polySurface27|Take 001|BaseLayer
+    7400568: Stone_Duster.001|polySurface28|Take 001|BaseLayer
+    7400570: Stone_Duster.001|polySurface5|Take 001|BaseLayer
+    7400572: Stone_Duster.001|polySurface6|Take 001|BaseLayer
+    7400574: Stone_Duster.001|polySurface8|Take 001|BaseLayer
+    7400576: Stone_Duster.001|polySurface9|Take 001|BaseLayer
+    7400578: Stone_Duster.001|shebei02:group1|Take 001|BaseLayer
+    7400580: Stone_Duster.001|shebei02:leimengmo|Take 001|BaseLayer
+    7400582: Stone_Duster.001|shebei02:Object__1|Take 001|BaseLayer
+    7400584: Stone_Duster.001|shebei02:polySurface793|Take 001|BaseLayer
+    7400586: Stone_Duster.001|shebei02:transform1|Take 001|BaseLayer
+    7400588: Stone_Duster.001|shebei02:transform2|Take 001|BaseLayer
+    7400590: Stone_Duster.001|shebei02:Trim_Text_CIS_1_1|Take 001|BaseLayer
+    7400592: Stone_Duster.001|shebei02:Trim_Text_CIS_1_2|Take 001|BaseLayer
+    7400594: Stone_Duster.001|silver9|Take 001|BaseLayer
+    7400596: Stone_Duster.001|Trim_Char_C_1_1.001|Take 001|BaseLayer
+    7400598: Stone_Duster.001|Trim_Char_C_1_1|Take 001|BaseLayer
+    7400600: Stone_Duster.001|Trim_Char_I_1_1.001|Take 001|BaseLayer
+    7400602: Stone_Duster.001|Trim_Char_I_1_1|Take 001|BaseLayer
+    7400604: Stone_Duster.001|Trim_Char_S_1_1.001|Take 001|BaseLayer
+    7400606: Stone_Duster.001|Trim_Char_S_1_1|Take 001|BaseLayer
+    7400608: Stone_Duster.001|Trim_Text_CIS_1_1|Take 001|BaseLayer
+    7400610: Stone_Duster.001|Trim_Text_CIS_1_2|Take 001|BaseLayer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
